@@ -37,8 +37,6 @@ while cont < tenta:
 	print ""
 	print "Tentativa " + str(cont+1) 
 	print ""
-	GPIO.output(ledNOK, 0)
-	GPIO.output(ledOK, 0)
 	GPIO.output(ledtest, 1)
 	import os
 	hostname = url #example
